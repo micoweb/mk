@@ -1,0 +1,122 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyDark: #9baacf;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+input[type="search"] {
+  background: #ffffff33;
+}
+
+input[type="search"]:focus::placeholder {
+  transition: 0.3s;
+  color: transparent;
+}
+
+input[type="search"]:hover {
+  box-shadow: 0 4px 30px #0000001a;
+  border: 1px solid #9999;
+}
+
+input[type="search"]:focus {
+  background: transparent;
+}
+
+.social{
+  padding:5px;
+  border-radius:50%;
+  color:#000000;
+}
+
+.social:hover{
+  color:#ffffff;
+  background-color:#000000;
+}
+
+.top-header {
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  transition: background-image 1s;
+  background-color: rgba(25, 0, 255, 0.5);
+  background-blend-mode: multiply;
+}
+
+.navbar {
+  background: #ffffff33;
+  box-shadow: 0 4px 30px #0000001a;
+  backdrop-filter: blur(12.9px);
+  -webkit-backdrop-filter: blur(12.9px);
+  margin: 5px 10px;
+  border-radius: 16px;
+  border: 1px solid #ffffff4d;
+}
+
+section {
+  background: linear-gradient(#01012a, #181950);
+}
+
+.holiday {
+  width: 100%;
+  height: 100px;
+}
+
+.holiday video {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand img {
+  width: 32px;
+}
+
+.album {
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+}
+
+.footer-container {
+  position: relative;
+}
+
+.go-top {
+  cursor: pointer;
+  position: absolute;
+  top: -75px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  background: var(--white);
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card img {
+  height: 300px;
+  margin: 10px;
+  border-radius: 15px;
+}
